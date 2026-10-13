@@ -7,7 +7,7 @@ int main(void)
     scanf("%s %s", &word1, &word2);
     printf(
         "%s-%s\n"
-        "TOTAL_LEN: %lu\n",
+        "TOTAL_LEN: %zu\n",
         word1, word2,
         strlen(word1) + strlen(word2)
     );
